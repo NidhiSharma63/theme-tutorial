@@ -21,7 +21,55 @@ body {
     align-items: center;
     padding: 0rem 1rem;
 }
+.upper-section .theme-wrapper{
+    display: flex;
+    align-items: center;
+}
 
+.theme-wrapper .theme-container{
+    border: 1px solid white;
+    display: flex;
+    padding-left: 1rem;
+}
+.theme-container .first-theme,
+.theme-container .second-theme,
+.theme-container .third-theme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.theme-container .first-theme .space,
+.theme-container .second-theme .space,
+.theme-container .third-theme .space{
+    padding: 0.6rem;
+}
+.theme-container .first-theme .space{
+    border: 1px solid;
+    border-right: none;
+    border-bottom-left-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+}
+.theme-wrapper .circle{
+    width: 1rem;
+    height: 1rem;
+    background: orange;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+    left: 35px;
+    cursor: pointer;
+    transform: translateX(0);
+}
+.theme-container .second-theme .space{
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.theme-container .third-theme .space{
+    border: 1px solid;
+    border-left: none;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
 .container {
     padding: 1rem;
     border-radius: 1rem;
