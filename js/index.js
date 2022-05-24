@@ -15,7 +15,9 @@ const btns = document.querySelectorAll('.btn');
 const result = document.querySelector(".result");
 const onBtn = document.getElementById("on-btn");
 const clear = document.getElementById("clear");
-const equal = document.getElementById("equal")
+const equal = document.getElementById("equal");
+const circle = document.querySelector('.circle');
+const themeLink = document.querySelector('.themeLink')
 let on = false;
 onBtn.addEventListener("click", () => {
     on = true;
@@ -36,4 +38,4 @@ equal.addEventListener('click', () => {
     }
 });
 
-moveCircle();
+moveCircle(circle,themeLink);

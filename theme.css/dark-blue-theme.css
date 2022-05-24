@@ -28,3 +28,9 @@ body{
     background-color:hsl(6, 63%, 50%);
     box-shadow: 0rem 0.1rem hsl(6, 70%, 34%);
 }
+
+.theme-container .first-theme .space,
+.theme-container .second-theme .space,
+.theme-container .third-theme .space{
+    background-color:hsl(223, 31%, 20%);
+}

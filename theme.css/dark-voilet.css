@@ -40,3 +40,9 @@ body{
 #equal:hover{
     background-color:hsl(176, 100%, 64%);
 }
+
+.theme-container .first-theme .space,
+.theme-container .second-theme .space,
+.theme-container .third-theme .space{
+    background-color:hsl(268, 71%, 12%);
+}

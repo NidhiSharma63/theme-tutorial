@@ -27,7 +27,6 @@ body {
 }
 
 .theme-wrapper .theme-container{
-    border: 1px solid white;
     display: flex;
     padding-left: 1rem;
 }
@@ -44,8 +43,6 @@ body {
     padding: 0.6rem;
 }
 .theme-container .first-theme .space{
-    border: 1px solid;
-    border-right: none;
     border-bottom-left-radius: 0.4rem;
     border-top-left-radius: 0.4rem;
 }
@@ -59,14 +56,9 @@ body {
     left: 35px;
     cursor: pointer;
     transform: translateX(0);
-}
-.theme-container .second-theme .space{
-    border-bottom: 1px solid;
-    border-top: 1px solid;
+    transition: .4s;
 }
 .theme-container .third-theme .space{
-    border: 1px solid;
-    border-left: none;
     border-top-right-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
 }
