@@ -58,6 +58,9 @@ body {
     transform: translateX(0);
     transition: .4s;
 }
+.theme-wrapper p{
+    font-size: .8rem;
+}
 .theme-container .third-theme .space{
     border-top-right-radius: 0.4rem;
     border-bottom-right-radius: 0.4rem;
