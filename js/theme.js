@@ -41,9 +41,6 @@ export const moveCircle = (circle,themeLink) =>{
                 themeLink.setAttribute('href','./theme.css/dark-voilet.css');
                 localStorage.setItem('theme-href','./theme.css/dark-voilet.css');
                 themeStage=0;
-            }
-            console.log(themeStage)
-
-            console.log(localStorage.getItem('theme-href'))
+            };
     });
 };
