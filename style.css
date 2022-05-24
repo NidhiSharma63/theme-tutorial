@@ -40,7 +40,7 @@ body {
 .theme-container .first-theme .space,
 .theme-container .second-theme .space,
 .theme-container .third-theme .space{
-    padding: 0.6rem;
+    padding: 1rem;
 }
 .theme-container .first-theme .space{
     border-bottom-left-radius: 0.4rem;
@@ -53,7 +53,7 @@ body {
     border-radius: 50%;
     position: relative;
     top: 8px;
-    left: 35px;
+    left: 43px;
     cursor: pointer;
     transform: translateX(0);
     transition: .4s;
