@@ -2,7 +2,7 @@
 
 ![Design preview for the Calculator app coding challenge](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## hey Welcome! 👋
 
 **i have completed this challenge given by front-end mentor.**
 
@@ -13,7 +13,7 @@
 - Prefer-user-theme should be saved in the browser.
 - completely Resposnive.
 
-**I have done this project by using HTML , CSS , JS**
+**I have done this project by using HTML , CSS , JS chekout this https://nidhisharma63.github.io/calculator-app/**
 
 
 
