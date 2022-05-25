@@ -13,6 +13,7 @@
 - Prefer-user-theme should be saved in the browser.
 - completely Resposnive.
 
+**i learned lots of new thing while building this challenge**
 **I have done this project by using HTML , CSS , JS chekout this https://nidhisharma63.github.io/calculator-app/**
 
 
