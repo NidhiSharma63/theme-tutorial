@@ -7,9 +7,9 @@ import {
     Action
 } from './get-value.js';
 
-import{
-    moveCircle,
-} from './theme.js';
+// import{
+//     moveCircle,
+// } from './theme.js';
 
 const btns = document.querySelectorAll('.btn');
 const result = document.querySelector(".result");
@@ -37,5 +37,10 @@ equal.addEventListener('click', () => {
         Action()
     }
 });
-
-moveCircle(circle,themeLink);
+// window.onload=()=>document.querySelector('body').className('voilet-theme')
+window.onload=()=>{
+    const body = document.querySelector('body');
+    console.log(body)
+    body.className='voilet-theme'
+}
+// moveCircle(circle,themeLink);
