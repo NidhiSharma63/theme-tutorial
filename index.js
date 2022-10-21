@@ -4,27 +4,27 @@ const body = document.querySelector('body');
 let themeCount = 1;
 
 circle.addEventListener('click',()=>{
-
+  console.log(themeCount)
   if(themeCount===0){
     body.className = 'blue-theme';
-    themeCount+=1;
     circle.style.transform ='translateX(0px)';
     localStorage.setItem('theme','blue-theme');
+    themeCount+=1;
     return
   }
 
   if(themeCount===1){
     body.className = 'voilet-theme';
-    themeCount+=1;
     circle.style.transform ='translateX(17px)';
     localStorage.setItem('theme','voilet-theme');
+    themeCount+=1;
     return
   }
   if(themeCount===2){
     body.className = 'white-theme';
-    themeCount=0;
     circle.style.transform ='translateX(37px)';
     localStorage.setItem('theme','white-theme');
+    themeCount=0;
     return
   }
 });
@@ -36,7 +36,7 @@ window.onload = () =>{
     switch (getTheme) {
       case 'blue-theme':
         circle.style.transform ='translateX(0px)';
-        themeCount=0;
+        themeCount=1;
         break;
       case 'voilet-theme':
         circle.style.transform ='translateX(17px)';
@@ -44,7 +44,7 @@ window.onload = () =>{
         break;
       case 'white-theme':
         circle.style.transform ='translateX(37px)';
-        themeCount=3;
+        themeCount=0;
         break;
       
       default:
