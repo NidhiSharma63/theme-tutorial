@@ -116,9 +116,13 @@ body {
     cursor: pointer;
     transform: translateX(0);
     transition: .4s;
+    border: 1px solid red;
 }
+
 .theme-wrapper p{
     font-size: .8rem;
+    border: 1px solid red;
+
 }
 .theme-container .third-theme .space{
     border-top-right-radius: 0.4rem;
