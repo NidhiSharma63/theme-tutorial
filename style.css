@@ -82,52 +82,28 @@ body {
 }
 .upper-section .theme-wrapper{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: .5rem;
 }
 
-.theme-wrapper .theme-container{
+.theme-wrapper .theme-count{
     display: flex;
-    padding-left: 1rem;
+    gap: .9rem;
+    font-size: .8rem;
 }
-.theme-container .first-theme,
-.theme-container .second-theme,
-.theme-container .third-theme{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.theme-container .first-theme .space,
-.theme-container .second-theme .space,
-.theme-container .third-theme .space{
-    padding: 1rem;
-}
-.theme-container .first-theme .space{
-    border-bottom-left-radius: 0.4rem;
-    border-top-left-radius: 0.4rem;
-}
+
 .theme-wrapper .circle{
-    width: 1rem;
-    height: 1rem;
+    width: .8rem;
+    height: .8rem;
     background: orange;
     border-radius: 50%;
     position: relative;
-    top: 8px;
-    left: 43px;
     cursor: pointer;
     transform: translateX(0);
     transition: .4s;
-    border: 1px solid red;
 }
 
-.theme-wrapper p{
-    font-size: .8rem;
-    border: 1px solid red;
-
-}
-.theme-container .third-theme .space{
-    border-top-right-radius: 0.4rem;
-    border-bottom-right-radius: 0.4rem;
-}
 .container {
     padding: 1rem;
     border-radius: 1rem;
