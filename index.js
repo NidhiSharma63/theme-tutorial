@@ -14,9 +14,9 @@ circle.addEventListener('click',()=>{
   }
 
   if(themeCount===1){
-    body.className = 'voilet-theme';
+    body.className = 'violet-theme';
     circle.style.transform ='translateX(17px)';
-    localStorage.setItem('theme','voilet-theme');
+    localStorage.setItem('theme','violet-theme');
     themeCount+=1;
     return
   }
@@ -38,7 +38,7 @@ window.onload = () =>{
         circle.style.transform ='translateX(0px)';
         themeCount=1;
         break;
-      case 'voilet-theme':
+      case 'violet-theme':
         circle.style.transform ='translateX(17px)';
         themeCount=2;
         break;

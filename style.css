@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-.voilet-theme{
+.violet-theme{
     --body-bg: hsl(268, 75%, 9%);
     --main-wrapper-shadow: hsl(268, 80%, 32%);
      
@@ -270,8 +270,4 @@ body {
 
 #sub {
     grid-area: sub;
-}
-
-.readme-btn{
-    background-color: orange;
 }
